@@ -22,7 +22,6 @@ const App = () => {
     <div>
       <div className="App">
         {user && <Card user={user} />}
-        {/* user true ise soldakini bas  */}
       </div>
       <button className="button" onClick={users}>
         Random User
